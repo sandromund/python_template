@@ -2,6 +2,14 @@
 Template with my most used setup.
 
 
+```shell
+mkdir source
+mkdir configs
+mkdir docs 
+mkdir resources 
+mkdir tests 
+mkdir logs
+```
 
 ## Install
 ````shell
