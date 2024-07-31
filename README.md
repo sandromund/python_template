@@ -9,7 +9,7 @@ python source/main.py run --config configs/default.yaml
 ## Install
 ````shell
 pip install --upgrade pip
-pip install pylint pytest black pyinstaller
+pip install pylint black pyinstaller
 pip install -r requirements.txt
 ````
 ## Style check
@@ -24,6 +24,7 @@ pytest
 ## Format 
 ````shell
 black source 
+black tests
 ````
 
 ## Create an Exe
