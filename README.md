@@ -25,3 +25,12 @@ pytest
 ````shell
 black source 
 ````
+
+## Create an Exe
+````shell
+pyinstaller --onefile source/main.py --name=app
+````
+## Run the Exe 
+````shell
+dist/app.exe run --config configs/default.yaml
+````
